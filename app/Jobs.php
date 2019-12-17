@@ -8,4 +8,11 @@ class Jobs extends Model
 {
     protected $table = 'jobs';
     
+    protected $primaryKey = 'id_jobs';
+    protected $fillable = [
+        'id_jobs','nama',
+    ];
+    
+    public $timestamps = false;
+    
 }

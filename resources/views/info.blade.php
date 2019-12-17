@@ -66,6 +66,12 @@
     <body>
 
     <div class="content">
+                <div class="title m-b-md">
+                    <h5>Cintya Agusti Anindita (425960/SV/15102)</h5>
+                </div>
+                <div class="title m-b-md">
+                    <h5>(425960/SV/15102)</h5>
+                </div>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
